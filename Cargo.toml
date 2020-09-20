@@ -2,12 +2,13 @@
 name = "rust_resemble"
 version = "0.1.0"
 authors = ["Dany Laporte <dany_laporte@hotmail.com>"]
+edition = "2018"
 
 [lib]
 name = "rust_resemble"
 path = "./src/lib.rs"
 
 [dependencies]
-image = "0.14"
+image = "0.23"
 num-traits = "0.2"
-rayon = "1.1"
+rayon = "1.4"
